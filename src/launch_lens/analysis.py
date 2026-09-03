@@ -1,4 +1,4 @@
-"""Experiment analysis and explicit product decision policy."""
+# Experiment analysis and explicit product decision policy.
 
 from dataclasses import asdict
 from typing import Any
@@ -61,12 +61,12 @@ def analyze_experiment(data: ExperimentData) -> dict[str, Any]:
     risks = [f"{item['name']} missed its launch threshold." for item in failed]
     risks += [f"Credible engagement harm detected for the {segment} segment." for segment in harmed_segments]
     if not risks:
-        risks.append("No launch-blocking guardrail or segment harm detected; continue post-launch monitoring.")
+        risks.append("No launch-blocking guardrail or segment harm detected, continue post-launch monitoring.")
 
     return {
         "experiment": {
             "name": "AI Discovery Assistant",
-            "hypothesis": "Guided discovery increases meaningful engagement without unacceptable quality, safety, latency, or cost regressions.",
+            "hypothesis": "Guided discovery increases meaningful engagement without unacceptable quality, safety, latency or cost regressions.",
             "users": len(data.user_id),
             "treatment_share": float(np.mean(data.treatment)),
         },
