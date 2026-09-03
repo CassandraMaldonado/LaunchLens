@@ -2,10 +2,6 @@
 
 **An experimentation and causal decision platform for AI products.** LaunchLens turns a noisy product launch into an executive recommendation by combining experiment design, CUPED variance reduction, guardrail monitoring, heterogeneous treatment effects, and AI quality/cost analysis.
 
-![Python](https://img.shields.io/badge/Python-3.11-3776AB?logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-API-009688?logo=fastapi&logoColor=white)
-![Tests](https://img.shields.io/badge/tests-pytest-0A9EDC)
-
 ## Why this project exists
 
 Shipping an AI feature is not just a question of whether engagement increased. Product teams also need to know:
