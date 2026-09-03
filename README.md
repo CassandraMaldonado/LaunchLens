@@ -2,7 +2,7 @@
 
 **An experimentation and causal decision platform for AI products.** 
 
-LaunchLens turns a noisy product launch into an executive recommendation by combining experiment design, CUPED variance reduction, guardrail monitoring, heterogeneous treatment effects and AI cost analysis.
+LaunchLens turns a noisy product launch into an executive recommendation by combining experiment design, CUPED variance reduction, guardrail monitoring, heterogeneous treatment effects and AI quality/cost analysis.
 
 ## Why this project exists
 
