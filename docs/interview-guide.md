@@ -18,5 +18,5 @@
 
 ## Honest boundaries
 
-The data is synthetic. Say this immediately. The project demonstrates experimental reasoning, system design, implementation quality, and product judgment—not a claim that a simulated lift is a business result.
+The data is synthetic. Say this immediately. The project demonstrates experimental reasoning, system design, implementation quality, and product judgment, its not a claim that a simulated lift is a business result.
 
