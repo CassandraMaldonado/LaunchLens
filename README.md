@@ -1,4 +1,3 @@
-[README.md](https://github.com/user-attachments/files/31776013/README.md)
 # LaunchLens
 
 **An experimentation and causal decision platform for AI products.** LaunchLens turns a noisy product launch into an executive recommendation by combining experiment design, CUPED variance reduction, guardrail monitoring, heterogeneous treatment effects, and AI quality/cost analysis.
