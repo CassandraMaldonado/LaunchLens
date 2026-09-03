@@ -1,4 +1,4 @@
-"""Command-line interface for reproducible analysis."""
+# Command-line interface to reproduce the analysis.
 
 import argparse
 import json
