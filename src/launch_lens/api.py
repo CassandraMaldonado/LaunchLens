@@ -1,4 +1,4 @@
-"""FastAPI delivery layer for LaunchLens."""
+# FastAPI delivery layer for LaunchLens.
 
 from functools import lru_cache
 from pathlib import Path
