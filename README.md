@@ -59,8 +59,8 @@ The statistical core is framework-independent and fully tested. FastAPI is a thi
 
 ```text
 src/launch_lens/
-  simulation.py   reproducible event-level scenario
-  statistics.py   inference, CUPED, multiplicity correction
+  simulation.py   reproducible event level scenario.
+  statistics.py   inference, CUPED and multiplicity correction.
   analysis.py     metrics, segments, economics, decision policy
   api.py          typed HTTP contract and static app
 web/              zero-build responsive product UI
