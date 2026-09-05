@@ -68,11 +68,6 @@ tests/            statistical and API behavior
 docs/             methodology and interview narrative
 ```
 
-## Product judgment encoded in the system
-
-LaunchLens deliberately does **not** let a significant engagement win automatically produce “ship.” A launch must also satisfy explicit quality, safety, latency, and economic constraints. Results can be `SHIP`, `ITERATE`, or `HOLD`, and every outcome includes human-readable reasons and risks.
-
-See [docs/methodology.md](docs/methodology.md) for assumptions and [docs/interview-guide.md](docs/interview-guide.md) for a concise walkthrough, tradeoffs, and extensions.
 
 ## Tests
 
