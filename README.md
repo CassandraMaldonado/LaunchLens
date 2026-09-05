@@ -81,8 +81,3 @@ pytest
 ```
 
 Tests cover deterministic simulation, treatment assignment balance, known-effect recovery, CUPED variance reduction, false-discovery correction, decision policy behavior, and the HTTP contract.
-
-## Responsible use
-
-The dataset is synthetic and contains no personal data. Segment results are exploratory and multiplicity-adjusted. LaunchLens surfaces subgroup harm; it does not automate consequential decisions or claim that statistical significance implies product value.
-
