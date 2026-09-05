@@ -34,12 +34,12 @@ python -m launch_lens.cli analyze --seed 42
 
 ## What is technically interesting
 
-1. **Deterministic synthetic event generation** with heterogeneous effects and correlated pre-period covariates.
-2. **CUPED adjustment** estimated only from pre-treatment behavior, reducing variance without post-treatment leakage.
-3. **Welch inference and confidence intervals** implemented transparently rather than hidden behind a dashboard abstraction.
-4. **Guardrail policy engine** that separates statistical evidence from launch criteria.
-5. **Segment analysis with Benjamini–Hochberg correction** to reduce false discoveries.
-6. **Decision layer** that combines primary lift, downside risk, quality, latency, safety, and unit economics into a reviewable recommendation.
+Realistic synthetic data generation that captures different treatment effects and relationships between pre-experiment variables.
+CUPED variance reduction based only on pre-treatment behavior, avoiding data leakage.
+Transparent statistical testing using Welch’s test and confidence intervals, with the calculations clearly documented.
+Clear launch guardrails that distinguish statistical significance from business requirements.
+Reliable segment analysis using the Benjamini-Hochberg correction to limit false discoveries.
+Practical decision framework that considers lift, risk, quality, latency, safety, and unit economics before recommending a launch.
 
 ## Architecture
 
