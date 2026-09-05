@@ -42,9 +42,9 @@ python -m launch_lens.cli analyze --seed 42
 
 4. Launch guardrails that distinguish statistical significance from business requirements.
 
-5. Reliable segment analysis using the Benjamini-Hochberg correction to limit false discoveries.
+5. Segment analysis using the Benjamini-Hochberg correction to limit false discoveries.
 
-6. Practical decision framework that considers lift, risk, quality, latency, safety, and unit economics before recommending a launch.
+6. Practical decision framework that considers lift, risk, quality, latency, safety and unit economics before recommending a launch.
 
 ## Architecture
 
