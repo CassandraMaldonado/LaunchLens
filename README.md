@@ -72,12 +72,3 @@ web/              UI.
 tests/            statistical and API behavior.
 docs/             methodology.
 ```
-
-
-## Tests
-
-```bash
-pytest
-```
-
-Tests cover deterministic simulation, treatment assignment balance, known-effect recovery, CUPED variance reduction, false-discovery correction, decision policy behavior, and the HTTP contract.
