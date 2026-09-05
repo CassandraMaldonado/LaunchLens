@@ -38,9 +38,9 @@ python -m launch_lens.cli analyze --seed 42
    
 2. CUPED variance reduction based only on pre-treatment behavior, to avoid data leakage.
    
-3. Transparent statistical testing using Welch’s test and confidence intervals, with the calculations clearly documented.
+3. Statistical testing using Welch’s test and confidence intervals.
 
-4. Clear launch guardrails that distinguish statistical significance from business requirements.
+4. Launch guardrails that distinguish statistical significance from business requirements.
 
 5. Reliable segment analysis using the Benjamini-Hochberg correction to limit false discoveries.
 
