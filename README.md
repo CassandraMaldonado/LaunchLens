@@ -34,9 +34,9 @@ python -m launch_lens.cli analyze --seed 42
 
 ## What is technically interesting
 
-1. Realistic synthetic data generation that captures different treatment effects and relationships between pre-experiment variables.
+1. Synthetic data generation that captures different treatment effects and relationships between pre-experiment variables.
    
-2. CUPED variance reduction based only on pre-treatment behavior, avoiding data leakage.
+2. CUPED variance reduction based only on pre-treatment behavior, to avoid data leakage.
    
 3. Transparent statistical testing using Welch’s test and confidence intervals, with the calculations clearly documented.
 
