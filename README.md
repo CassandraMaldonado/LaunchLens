@@ -63,9 +63,9 @@ src/launch_lens/
   statistics.py   inference, CUPED and multiplicity correction.
   analysis.py     metrics, segments, economics, decision policy
   api.py          typed HTTP contract and static app
-web/              zero-build responsive product UI
-tests/            statistical and API behavior
-docs/             methodology and interview narrative
+web/              UI.
+tests/            statistical and API behavior.
+docs/             methodology.
 ```
 
 
