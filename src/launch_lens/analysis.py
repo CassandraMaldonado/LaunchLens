@@ -1,8 +1,7 @@
 # Experiment analysis and explicit product decision policy.
 
-# This is where I bring the full experiment together. I calculate the main
-# product metrics, look for differences across user segments, check the launch
-# guardrails, and turn the evidence into a clear ship, iterate, or hold decision.
+# This is where I bring the full experiment together. I calculate the main product metrics, look for differences across user segments, 
+# check the launch guardrails and turn the evidence into a decision.
 
 from dataclasses import asdict
 from typing import Any
