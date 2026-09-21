@@ -1,5 +1,9 @@
 """Reproducible, event-level AI product experiment simulation."""
 
+# I created this file to generate realistic product experiment data without
+# using private customer information. It simulates user segments, engagement,
+# retention, quality, latency, safety events, and inference costs.
+
 from dataclasses import dataclass
 
 import numpy as np
