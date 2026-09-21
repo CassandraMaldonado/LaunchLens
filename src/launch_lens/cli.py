@@ -1,4 +1,5 @@
-# Command-line interface to reproduce the analysis.
+# This gives me a quick way to run the complete experiment from the terminal.
+# I can change the seed or sample size and reproduce the decision without opening the dashboard.
 
 import argparse
 import json
