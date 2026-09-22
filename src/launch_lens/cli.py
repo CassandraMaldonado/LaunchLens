@@ -1,12 +1,10 @@
-# This gives me a quick way to run the complete experiment from the terminal.
-# I can change the seed or sample size and reproduce the decision without opening the dashboard.
+# This gives me a quick way to run the complete experiment from the terminal, without opening the dashboard.
 
 import argparse
 import json
 
 from .analysis import analyze_experiment
 from .simulation import simulate_experiment
-
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Analyze an AI product experiment")
