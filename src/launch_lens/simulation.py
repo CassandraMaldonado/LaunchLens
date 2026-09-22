@@ -2,9 +2,7 @@
 # It simulates user segments, engagement,retention, quality, latency, safety events and inference costs.
 
 from dataclasses import dataclass
-
 import numpy as np
-
 
 @dataclass(frozen=True)
 class ExperimentData:
