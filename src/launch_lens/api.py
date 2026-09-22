@@ -1,6 +1,6 @@
 # FastAPI delivery layer for LaunchLens.
 
-# I use this file to connect the analysis. It exposes the results through a small API and a dashboard, 
+# I use it to connect the analysis. It exposes the results through a small API and a dashboard, 
 # so the same analysis can be reviewed in the browser or used by another app.
 
 from functools import lru_cache
