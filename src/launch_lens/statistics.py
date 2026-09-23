@@ -1,7 +1,4 @@
-"""Small, inspectable statistical primitives used by the decision engine."""
-
-# I keep the core statistical methods in this file so they are easy to inspect
-# and test. This includes CUPED variance reduction, treatment-effect estimation,
+# I keep the core statistical methods in this file so they are easy to inspect and test. This includes CUPED variance reduction, treatment-effect estimation,
 # confidence intervals, and false-discovery-rate adjustments.
 
 from dataclasses import dataclass
