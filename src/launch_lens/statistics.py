@@ -1,5 +1,5 @@
-# I keep the core statistical methods in this file so they are easy to inspect and test. This includes CUPED variance reduction, treatment-effect estimation,
-# confidence intervals, and false-discovery-rate adjustments.
+# I keep the core statistical methods in this file so they are easy to inspect and test. 
+# It includes CUPED variance reduction, treatment-effect estimation, confidence intervals and false-discovery rate adjustments.
 
 from dataclasses import dataclass
 
