@@ -18,7 +18,7 @@ class Estimate:
     n_control: int
     n_treatment: int
 
-    """Adjust an outcome using a centered pre-treatment covariate."""
+# Adjusts an outcome using a centered pre-treatment covariate.
 def cuped_adjust(outcome: np.ndarray, pre_period: np.ndarray) -> tuple[np.ndarray, float]:
     variance = np.var(pre_period, ddof=1)
     theta = 0.0 if variance == 0 else float(np.cov(outcome, pre_period, ddof=1)[0, 1] / variance)
