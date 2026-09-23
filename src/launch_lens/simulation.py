@@ -35,7 +35,7 @@ def simulate_experiment(n_users: int = 12_000, seed: int = 42) -> ExperimentData
     user_affinity = rng.normal(0, 1.15, n_users)
     pre_engagement = np.maximum(0, baseline + user_affinity + rng.normal(0, 1.1, n_users))
 
-    # The assistant helps new/casual users discover content, but initially distracts power users.
+    # the assistant helps new/casual users discover content, but initially distracts power users.
     treatment_effect = np.select(
         [segment == "new", segment == "casual"], [0.72, 0.42], default=-0.18
     )
@@ -64,4 +64,3 @@ def simulate_experiment(n_users: int = 12_000, seed: int = 42) -> ExperimentData
         safety_flag=safety_flag.astype(float),
         cost_usd=cost_usd,
     )
-
