@@ -23,7 +23,7 @@ class ExperimentData:
 
 SEGMENTS = np.array(["new", "casual", "power"])
 
-    """Simulate a randomized test with realistic heterogeneous treatment effects."""
+# Simulates a randomized test with heterogeneous treatment effects.
 def simulate_experiment(n_users: int = 12_000, seed: int = 42) -> ExperimentData:
     if n_users < 200:
         raise ValueError("n_users must be at least 200 for stable experiment diagnostics")
