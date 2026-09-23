@@ -2,10 +2,8 @@
 # It includes CUPED variance reduction, treatment-effect estimation, confidence intervals and false-discovery rate adjustments.
 
 from dataclasses import dataclass
-
 import numpy as np
 from scipy import stats
-
 
 @dataclass(frozen=True)
 class Estimate:
