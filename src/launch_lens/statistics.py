@@ -54,8 +54,8 @@ def estimate_effect(outcome: np.ndarray, treatment: np.ndarray) -> Estimate:
     )
 
 
+# Returns a false-discovery rate adjusted p-values.
 def benjamini_hochberg(p_values: list[float]) -> list[float]:
-    """Return monotonic false-discovery-rate adjusted p-values."""
     values = np.asarray(p_values, dtype=float)
     order = np.argsort(values)
     ranked = values[order]
@@ -64,4 +64,3 @@ def benjamini_hochberg(p_values: list[float]) -> list[float]:
     adjusted = np.empty_like(adjusted_ranked)
     adjusted[order] = np.minimum(adjusted_ranked, 1.0)
     return adjusted.tolist()
-
