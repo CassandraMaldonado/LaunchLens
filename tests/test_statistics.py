@@ -1,9 +1,7 @@
 import numpy as np
 import pytest
-
 from launch_lens.simulation import simulate_experiment
 from launch_lens.statistics import benjamini_hochberg, cuped_adjust, estimate_effect
-
 
 def test_simulation_is_deterministic_and_balanced():
     first = simulate_experiment(2_000, seed=7)
