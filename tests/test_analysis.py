@@ -1,4 +1,5 @@
-# Test to make sure the full analysis produces a reasonable decision brief. It checks the decision options, confidence
+# Test to make sure the full analysis produces a reasonable decision brief. 
+# It checks the decision options, confidence
 # interval, segment results, guardrails, and the expected benefit from CUPED.
 
 from launch_lens.analysis import analyze_experiment
