@@ -4,7 +4,6 @@
 from launch_lens.analysis import analyze_experiment
 from launch_lens.simulation import simulate_experiment
 
-
 def test_analysis_contract_and_policy():
     result = analyze_experiment(simulate_experiment(12_000, seed=42))
     assert result["decision"]["status"] in {"SHIP", "ITERATE", "HOLD"}
@@ -12,4 +11,3 @@ def test_analysis_contract_and_policy():
     assert len(result["segments"]) == 3
     assert len(result["guardrails"]) == 4
     assert result["methodology"]["variance_reduction"] > 0
-
