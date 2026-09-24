@@ -1,3 +1,7 @@
+# I use this test to make sure the full analysis produces a complete and
+# reasonable decision brief. It checks the decision options, confidence
+# interval, segment results, guardrails, and the expected benefit from CUPED.
+
 from launch_lens.analysis import analyze_experiment
 from launch_lens.simulation import simulate_experiment
 
