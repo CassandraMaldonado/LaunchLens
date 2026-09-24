@@ -3,11 +3,9 @@
 # and unrealistic sample sizes are rejected before reaching the analysis.
 
 from fastapi.testclient import TestClient
-
 from launch_lens.api import app
 
 client = TestClient(app)
-
 
 def test_health_and_analysis_endpoints():
     assert client.get("/api/health").json() == {"status": "ok"}
@@ -18,4 +16,3 @@ def test_health_and_analysis_endpoints():
 
 def test_invalid_sample_size_is_rejected():
     assert client.get("/api/analysis?users=20").status_code == 422
-
