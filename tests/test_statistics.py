@@ -16,7 +16,7 @@ def test_cuped_preserves_mean_and_reduces_variance():
     assert np.mean(adjusted) == pytest.approx(np.mean(data.engagement))
     assert theta > 0
     assert estimate_effect(adjusted, data.treatment).standard_error < estimate_effect(data.engagement, data.treatment).standard_error
-
+    
 
 def test_effect_recovery_and_segment_heterogeneity():
     data = simulate_experiment(30_000, seed=11)
