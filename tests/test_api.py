@@ -1,7 +1,5 @@
 # The tests check that the dashboard can reliably access the analysis. 
-# I
-# verify that the service is healthy, valid requests return the expected data,
-# and unrealistic sample sizes are rejected before reaching the analysis.
+# I verify that the service is healthy, that valid requests return the expected data and unrealistic sample sizes are rejected before reaching the analysis.
 
 from fastapi.testclient import TestClient
 from launch_lens.api import app
