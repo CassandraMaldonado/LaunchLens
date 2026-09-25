@@ -1,8 +1,9 @@
 # LaunchLens
 
-**A practical framework for evaluating AI product launches.**
+**Framework for evaluating AI product launches.**
 
-I built LaunchLens to help answer a question that often becomes complicated in practice: should an AI feature actually be launched?
+I built LaunchLens to help answer a question that often becomes complicated in practice:
+- Should an AI feature actually be launched?
 
 An increase in engagement is useful, but it does not tell the whole story. Product teams also need to understand:
 
