@@ -1,7 +1,5 @@
-# I check that the
-# simulation is reproducible, random assignment is balanced, CUPED improves
-# precision, known treatment effects are recovered, and adjusted p-values work
-# as expected.
+# I check that the simulation is reproducible, random assignment is balanced, CUPED improves
+# precision, known treatment effects are recovered and adjusted p-values work as expected.
 
 
 import numpy as np
