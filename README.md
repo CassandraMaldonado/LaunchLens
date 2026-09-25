@@ -2,7 +2,22 @@
 
 **An experimentation and causal decision platform for AI products.** 
 
-LaunchLens turns a noisy product launch into an executive recommendation by combining experiment design, CUPED variance reduction, guardrail monitoring, heterogeneous treatment effects and AI quality/cost analysis.
+# LaunchLens
+
+**A practical framework for evaluating AI product launches.**
+
+I built LaunchLens to help answer a question that often becomes complicated in practice: should an AI feature actually be launched?
+
+An increase in engagement is useful, but it does not tell the whole story. Product teams also need to understand:
+
+- Is the improvement statistically reliable and large enough to matter?
+- Did the feature negatively affect latency, safety, or cost?
+- Which groups of users benefited, and did any groups have a worse experience?
+- Does the feature still make business sense after accounting for inference costs?
+
+LaunchLens brings these questions into one reproducible workflow. The example included in the project simulates an AI assistant experiment across 12,000 users. It includes different user segments, pre-experiment behavior, engagement, retention, quality scores, latency, safety flags, and inference costs.
+
+The analysis uses CUPED to improve measurement precision, evaluates treatment effects across user segments, checks important launch guardrails, and turns the results into a clear `SHIP`, `ITERATE`, or `HOLD` recommendation.
 
 ## Why
 
