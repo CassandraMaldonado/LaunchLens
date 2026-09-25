@@ -7,10 +7,6 @@ I built LaunchLens to help answer a question that often becomes complicated in p
 
 ## Why
 
-Shipping an AI feature is not just a question of whether engagement increased. Product teams also need to know:
-
--------
-
 An increase in engagement is useful, but it does not tell the whole story. Product teams also need to understand:
 
 - Is the improvement statistically reliable and large enough to matter?
