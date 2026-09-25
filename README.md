@@ -14,6 +14,8 @@ An increase in engagement is useful, but it does not tell the whole story. Produ
 - Which groups of users benefited and did any groups have a worse experience?
 - Does the feature still make business sense after accounting for inference costs?
 
+____
+
 LaunchLens brings these questions into one reproducible workflow. The example included in the project simulates an AI assistant experiment across 12,000 users. It includes different user segments, pre-experiment behavior, engagement, retention, quality scores, latency, safety flags, and inference costs.
 
 The analysis uses CUPED to improve measurement precision, evaluates treatment effects across user segments, checks important launch guardrails, and turns the results into a clear `SHIP`, `ITERATE`, or `HOLD` recommendation.
