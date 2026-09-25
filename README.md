@@ -3,13 +3,13 @@
 **Framework for evaluating AI product launches.**
 
 I built LaunchLens to help answer a question that often becomes complicated in practice:
-- Should an AI feature actually be launched?
+ - Should an AI feature actually be launched?
 
 An increase in engagement is useful, but it does not tell the whole story. Product teams also need to understand:
 
 - Is the improvement statistically reliable and large enough to matter?
-- Did the feature negatively affect latency, safety, or cost?
-- Which groups of users benefited, and did any groups have a worse experience?
+- Did the feature negatively affect latency, safety or cost?
+- Which groups of users benefited and did any groups have a worse experience?
 - Does the feature still make business sense after accounting for inference costs?
 
 LaunchLens brings these questions into one reproducible workflow. The example included in the project simulates an AI assistant experiment across 12,000 users. It includes different user segments, pre-experiment behavior, engagement, retention, quality scores, latency, safety flags, and inference costs.
