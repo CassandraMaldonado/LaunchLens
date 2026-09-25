@@ -5,6 +5,17 @@
 I built LaunchLens to help answer a question that often becomes complicated in practice:
  - Should an AI feature actually be launched?
 
+## Why
+
+Shipping an AI feature is not just a question of whether engagement increased. Product teams also need to know:
+
+- Is the lift statistically credible and practically meaningful?
+- Did latency, safety or cost regress?
+- Which users benefited and which were harmed?
+- Is the launch still attractive after accounting for inference cost?
+
+LaunchLens answers those questions in one reproducible workflow. The included scenario simulates an AI assistant tested across 12,000 users, with novelty effects, user segments, pre-period behavior, latency, quality scores, safety flags and inference cost.
+
 An increase in engagement is useful, but it does not tell the whole story. Product teams also need to understand:
 
 - Is the improvement statistically reliable and large enough to matter?
@@ -16,16 +27,6 @@ LaunchLens brings these questions into one reproducible workflow. The example in
 
 The analysis uses CUPED to improve measurement precision, evaluates treatment effects across user segments, checks important launch guardrails, and turns the results into a clear `SHIP`, `ITERATE`, or `HOLD` recommendation.
 
-## Why
-
-Shipping an AI feature is not just a question of whether engagement increased. Product teams also need to know:
-
-- Is the lift statistically credible and practically meaningful?
-- Did latency, safety or cost regress?
-- Which users benefited and which were harmed?
-- Is the launch still attractive after accounting for inference cost?
-
-LaunchLens answers those questions in one reproducible workflow. The included scenario simulates an AI assistant tested across 12,000 users, with novelty effects, user segments, pre-period behavior, latency, quality scores, safety flags and inference cost.
 
 ## Demo
 
