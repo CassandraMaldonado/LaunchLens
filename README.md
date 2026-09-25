@@ -9,11 +9,6 @@ I built LaunchLens to help answer a question that often becomes complicated in p
 
 Shipping an AI feature is not just a question of whether engagement increased. Product teams also need to know:
 
-- Is the lift statistically credible and practically meaningful?
-- Did latency, safety or cost regress?
-- Which users benefited and which were harmed?
-- Is the launch still attractive after accounting for inference cost?
-
 -------
 
 An increase in engagement is useful, but it does not tell the whole story. Product teams also need to understand:
