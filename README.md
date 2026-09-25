@@ -1,9 +1,5 @@
 # LaunchLens
 
-**An experimentation and causal decision platform for AI products.** 
-
-# LaunchLens
-
 **A practical framework for evaluating AI product launches.**
 
 I built LaunchLens to help answer a question that often becomes complicated in practice: should an AI feature actually be launched?
