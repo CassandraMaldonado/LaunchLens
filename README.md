@@ -14,7 +14,7 @@ Shipping an AI feature is not just a question of whether engagement increased. P
 - Which users benefited and which were harmed?
 - Is the launch still attractive after accounting for inference cost?
 
-LaunchLens answers those questions in one reproducible workflow. The included scenario simulates an AI assistant tested across 12,000 users, with novelty effects, user segments, pre-period behavior, latency, quality scores, safety flags and inference cost.
+-------
 
 An increase in engagement is useful, but it does not tell the whole story. Product teams also need to understand:
 
